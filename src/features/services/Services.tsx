@@ -1,5 +1,5 @@
 
-import { Container } from "@/component/common/Container";
+import { Container } from "@/components/common/Container";
 import { ServiceCard } from "./ServiceCard";
 import { services } from "./services.data";
 

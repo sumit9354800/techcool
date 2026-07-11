@@ -1,5 +1,5 @@
 
-import { Container } from "@/component/common/Container";
+import { Container } from "@/components/common/Container";
 import { HeroButtons } from "./HeroButtons";
 import { HeroImage } from "./HeroImage";
 
