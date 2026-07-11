@@ -1,9 +1,7 @@
 // src/app/page.tsx
-
-import { Container } from "@/component/common/Container";
 import { Navbar } from "@/component/layout/Navbar";
-
-
+import { Hero } from "@/features/hero/Hero";
+import { Services } from "@/features/services/Services";
 
 export default function Home() {
   return (
@@ -11,9 +9,8 @@ export default function Home() {
       <Navbar />
 
       <main>
-        <Container>
-          Home Page
-        </Container>
+        <Hero />
+        <Services />
       </main>
     </>
   );
