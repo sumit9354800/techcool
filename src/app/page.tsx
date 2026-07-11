@@ -3,6 +3,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Hero } from "@/features/hero/Hero";
 import { Services } from "@/features/services/Services";
 import { WhyChooseUs } from "@/features/why-choose-us/WhyChooseUs";
+import { HowItWorks } from "@/features/how-it-works/HowItWorks";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <WhyChooseUs />
         <Services />
+        <HowItWorks />
       </main>
     </>
   );
