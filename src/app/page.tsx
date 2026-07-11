@@ -1,17 +1,12 @@
-import { Footer } from "@/component/layout/Footer";
-import { Navbar } from "@/component/layout/Navbar";
+import { Container } from "@/component/common/Container";
 
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-
-      <main>
-        Home
-      </main>
-
-      <Footer />
-    </>
+    <main>
+      <Container>
+        Home Page
+      </Container>
+    </main>
   );
 }
