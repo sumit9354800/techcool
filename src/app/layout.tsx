@@ -13,8 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MRTECHYCOOL | AC & LED Repair Services",
-  description: "Professional AC & LED Repair Services at your doorstep.",
+  title: {
+    default: "MRTECHYCOOL | AC & LED Repair Services",
+    template: "%s | MRTECHYCOOL",
+  },
+  description:
+    "Professional AC & LED Repair Services at your doorstep. Fast, reliable, and affordable home services.",
 };
 
 export default function RootLayout({
