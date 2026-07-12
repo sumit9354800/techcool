@@ -6,6 +6,7 @@ import { WhyChooseUs } from "@/features/why-choose-us/WhyChooseUs";
 import { HowItWorks } from "@/features/how-it-works/HowItWorks";
 import { Gallery } from "@/features/gallery/Gallery";
 import { FAQ } from "@/features/faq/FAQ";
+import { Contact } from "@/features/contact/Contact";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <HowItWorks />
         <Gallery />
         <FAQ />
+        <Contact />
       </main>
     </>
   );

@@ -29,11 +29,7 @@ export function FAQ() {
         </div>
 
         <div className="mx-auto max-w-4xl">
-          <Accordion
-            type="single"
-            collapsible
-            className="w-full"
-          >
+          <Accordion className="w-full">
             {faqs.map((faq, index) => (
               <AccordionItem
                 key={index}
