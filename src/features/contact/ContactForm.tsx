@@ -9,6 +9,7 @@ import { ScaleIn } from "@/components/common/Motion";
 import { SERVICES } from "@/constants/services";
 
 import { contactSchema, ContactFormValues } from "./contact.schema";
+import { toast } from "sonner";
 
 export function ContactForm() {
   const {
@@ -43,15 +44,19 @@ export function ContactForm() {
         throw new Error(result.message || "Something went wrong.");
       }
 
-      alert("✅ Service request submitted successfully.");
-
       reset();
+
+      toast.success("Service Request Submitted!", {
+        description:
+          "We'll contact you shortly. Thank you for choosing MRTECHYCOOL.",
+      });
     } catch (error) {
-      if (error instanceof Error) {
-        alert(`❌ ${error.message}`);
-      } else {
-        alert("❌ Something went wrong.");
-      }
+      toast.error("Submission Failed", {
+        description:
+          error instanceof Error
+            ? error.message
+            : "Something went wrong. Please try again.",
+      });
     }
   }
   return (
@@ -217,7 +222,7 @@ export function ContactForm() {
     hover:-translate-y-1
   "
           >
-            {isSubmitting ? "Scheduling..." : "Schedule Service"}
+            {isSubmitting ? "Submitting Request..." : "Schedule Service"}
           </Button>
         </form>
       </div>
