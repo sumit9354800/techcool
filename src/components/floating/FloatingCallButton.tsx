@@ -9,12 +9,7 @@ export function FloatingCallButton() {
       href={`tel:${BUSINESS.phone}`}
       aria-label="Call Now"
       className="
-        group
-        fixed
-        bottom-6
-        right-6
-        z-50
-
+group
         flex
         h-16
         w-16
