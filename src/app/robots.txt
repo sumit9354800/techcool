@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://mrtechycool.in/sitemap.xml
+Host: https://mrtechycool.in
