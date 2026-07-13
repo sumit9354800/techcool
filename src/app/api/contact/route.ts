@@ -17,7 +17,7 @@ export async function POST(request: Request) {
         },
         {
           status: 400,
-        }
+        },
       );
     }
 
@@ -29,20 +29,178 @@ export async function POST(request: Request) {
       subject: `New Service Request - ${service}`,
 
       html: `
-        <h2>New Booking Received</h2>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+</head>
 
-        <hr/>
+<body style="margin:0;padding:0;background:#f8fafc;font-family:Arial,sans-serif;">
 
-        <p><strong>Name:</strong> ${name}</p>
+  <table width="100%" cellpadding="0" cellspacing="0" style="padding:40px 20px;">
+    <tr>
+      <td align="center">
 
-        <p><strong>Phone:</strong> ${phone}</p>
+        <table
+          width="650"
+          cellpadding="0"
+          cellspacing="0"
+          style="
+            background:#ffffff;
+            border-radius:16px;
+            overflow:hidden;
+            border:1px solid #e2e8f0;
+          "
+        >
 
-        <p><strong>Service:</strong> ${service}</p>
+          <!-- Header -->
 
-        <p><strong>Message:</strong></p>
+          <tr>
+            <td
+              style="
+                background:#2563eb;
+                padding:30px;
+                text-align:center;
+              "
+            >
+              <h1
+                style="
+                  margin:0;
+                  color:white;
+                  font-size:30px;
+                "
+              >
+                MRTECHYCOOL
+              </h1>
 
-        <p>${message}</p>
-      `,
+              <p
+                style="
+                  margin-top:10px;
+                  color:#dbeafe;
+                  font-size:15px;
+                "
+              >
+                New Service Request
+              </p>
+            </td>
+          </tr>
+
+          <!-- Body -->
+
+          <tr>
+            <td style="padding:35px;">
+
+              <h2
+                style="
+                  margin-top:0;
+                  color:#0f172a;
+                "
+              >
+                Customer Details
+              </h2>
+
+              <table
+                width="100%"
+                cellpadding="12"
+                cellspacing="0"
+                style="
+                  border-collapse:collapse;
+                  margin-top:20px;
+                "
+              >
+
+                <tr>
+                  <td style="font-weight:bold;width:170px;">
+                    Name
+                  </td>
+
+                  <td>${name}</td>
+                </tr>
+
+                <tr>
+                  <td style="font-weight:bold;">
+                    Phone
+                  </td>
+
+                  <td>
+                    <a
+                      href="tel:${phone}"
+                      style="
+                        color:#2563eb;
+                        text-decoration:none;
+                      "
+                    >
+                      ${phone}
+                    </a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="font-weight:bold;">
+                    Service
+                  </td>
+
+                  <td>${service}</td>
+                </tr>
+
+              </table>
+
+              <div
+                style="
+                  margin-top:35px;
+                "
+              >
+                <h3
+                  style="
+                    margin-bottom:12px;
+                    color:#0f172a;
+                  "
+                >
+                  Customer Issue
+                </h3>
+
+                <div
+                  style="
+                    background:#f8fafc;
+                    border-left:4px solid #2563eb;
+                    padding:18px;
+                    border-radius:8px;
+                    line-height:1.8;
+                  "
+                >
+                  ${message}
+                </div>
+              </div>
+
+            </td>
+          </tr>
+
+          <!-- Footer -->
+
+          <tr>
+            <td
+              style="
+                background:#f8fafc;
+                padding:24px;
+                text-align:center;
+                color:#64748b;
+                font-size:13px;
+              "
+            >
+              This email was automatically generated from the
+              MRTECHYCOOL website contact form.
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+`,
     });
 
     if (error) {
@@ -53,7 +211,7 @@ export async function POST(request: Request) {
         },
         {
           status: 500,
-        }
+        },
       );
     }
 
@@ -69,7 +227,7 @@ export async function POST(request: Request) {
       },
       {
         status: 500,
-      }
+      },
     );
   }
 }
