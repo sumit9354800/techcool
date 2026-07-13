@@ -15,12 +15,88 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mrtechycool.in"),
+
   title: {
-    default: "MRTECHYCOOL | AC & LED Repair Services",
+    default:
+      "MRTECHYCOOL | AC Repair, AC Installation & LED TV Repair Services in Delhi",
     template: "%s | MRTECHYCOOL",
   },
+
   description:
-    "Professional AC & LED Repair Services at your doorstep. Fast, reliable, and affordable home services.",
+    "Professional AC Repair, AC Installation, Gas Refilling, LED TV Repair and Home Appliance Repair Services in Delhi. Same-day doorstep service by certified technicians at affordable prices.",
+
+  keywords: [
+    "AC Repair Delhi",
+    "AC Installation Delhi",
+    "AC Service Delhi",
+    "AC Gas Refilling",
+    "LED TV Repair Delhi",
+    "Home Appliance Repair",
+    "Split AC Repair",
+    "Window AC Repair",
+    "MRTECHYCOOL",
+    "AC Technician Near Me",
+  ],
+
+  authors: [
+    {
+      name: "MRTECHYCOOL",
+    },
+  ],
+
+  creator: "MRTECHYCOOL",
+
+  publisher: "MRTECHYCOOL",
+
+  category: "Home Services",
+
+  openGraph: {
+    title:
+      "MRTECHYCOOL | AC Repair & LED TV Repair Services in Delhi",
+
+    description:
+      "Fast, reliable and affordable AC & LED TV repair services in Delhi with same-day doorstep support.",
+
+    url: "https://mrtechycool.in",
+
+    siteName: "MRTECHYCOOL",
+
+    locale: "en_IN",
+
+    type: "website",
+
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "MRTECHYCOOL",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+
+    title:
+      "MRTECHYCOOL | AC Repair & LED TV Repair Services",
+
+    description:
+      "Professional AC & LED TV Repair Services in Delhi.",
+
+    images: ["/og-image.png"],
+  },
+
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+
+  alternates: {
+    canonical: "https://mrtechycool.in",
+  },
 };
 
 export default function RootLayout({
