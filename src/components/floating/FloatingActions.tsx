@@ -1,3 +1,9 @@
+import { FloatingCallButton } from "./FloatingCallButton";
+
 export function FloatingActions() {
-  return null;
+  return (
+    <>
+      <FloatingCallButton />
+    </>
+  );
 }
