@@ -28,15 +28,32 @@ export function ContactForm() {
   });
 
   async function onSubmit(data: ContactFormValues) {
-    console.log(data);
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
 
-    await new Promise((resolve) => setTimeout(resolve, 1200));
+      const result = await response.json();
 
-    reset();
+      if (!response.ok) {
+        throw new Error(result.message || "Something went wrong.");
+      }
 
-    alert("Service request submitted successfully.");
+      alert("✅ Service request submitted successfully.");
+
+      reset();
+    } catch (error) {
+      if (error instanceof Error) {
+        alert(`❌ ${error.message}`);
+      } else {
+        alert("❌ Something went wrong.");
+      }
+    }
   }
-
   return (
     <ScaleIn>
       <div
