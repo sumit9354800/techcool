@@ -1,4 +1,7 @@
 import { Container } from "@/components/common/Container";
+import { SectionHeading } from "@/components/common/SectionHeading";
+import { ScaleIn } from "@/components/common/Motion";
+
 import { ContactForm } from "./ContactForm";
 import { contactInfo } from "./contact.data";
 
@@ -6,49 +9,92 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="py-24"
+      className="bg-gradient-to-b from-white via-slate-50/40 to-white py-24"
     >
       <Container>
-        <div className="mx-auto mb-14 max-w-2xl text-center">
-          <h2 className="mb-4 text-4xl font-bold">
-            Contact Us
-          </h2>
+        <SectionHeading
+          badge="Contact"
+          title="Let's Get Your Appliance Working Again"
+          description="Need AC or LED TV repair? Contact our team today and schedule a professional doorstep service."
+        />
 
-          <p className="text-slate-600">
-            Need AC or LED repair? Get in touch with us today.
-          </p>
-        </div>
-
-        <div className="grid gap-10 lg:grid-cols-2">
+        <div className="mt-16 grid gap-10 lg:grid-cols-2">
           {/* Left */}
-          <div className="space-y-6">
+
+          <div className="space-y-5">
             {contactInfo.map((item) => {
               const Icon = item.icon;
 
               return (
-                <div
-                  key={item.title}
-                  className="flex items-start gap-4 rounded-2xl border border-slate-200 p-5"
-                >
-                  <div className="rounded-xl bg-blue-100 p-3 text-blue-600">
-                    <Icon className="h-5 w-5" />
-                  </div>
+                <ScaleIn key={item.title}>
+                  <div
+                    className="
+                      group
+                      flex
+                      items-start
+                      gap-4
 
-                  <div>
-                    <h3 className="font-semibold">
-                      {item.title}
-                    </h3>
+                      rounded-3xl
+                      border
+                      border-slate-200
 
-                    <p className="mt-1 text-slate-600">
-                      {item.value}
-                    </p>
+                      bg-white
+                      p-6
+
+                      shadow-sm
+
+                      transition-all
+                      duration-300
+
+                      hover:-translate-y-1
+                      hover:border-blue-200
+                      hover:shadow-xl
+                    "
+                  >
+                    <div
+                      className="
+                        rounded-2xl
+                        bg-blue-50
+                        p-4
+
+                        transition-all
+                        duration-300
+
+                        group-hover:bg-blue-600
+                      "
+                    >
+                      <Icon
+                        className="
+                          h-6
+                          w-6
+
+                          text-blue-600
+
+                          transition-colors
+                          duration-300
+
+                          group-hover:text-white
+                        "
+                      />
+                    </div>
+
+                    <div>
+                      <h3 className="font-bold text-slate-900">
+                        {item.title}
+                      </h3>
+
+                      <p className="mt-2 leading-7 text-slate-600">
+                        {item.value}
+                      </p>
+                    </div>
                   </div>
-                </div>
+                </ScaleIn>
               );
             })}
           </div>
 
           {/* Right */}
+
           <ContactForm />
         </div>
       </Container>

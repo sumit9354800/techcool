@@ -1,15 +1,15 @@
 import { Container } from "@/components/common/Container";
+import { SectionHeading } from "@/components/common/SectionHeading";
+import { ScaleIn } from "@/components/common/Motion";
 
 import { faqs } from "./faq.data";
+
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-
-
-
 
 export function FAQ() {
   return (
@@ -18,34 +18,68 @@ export function FAQ() {
       className="bg-slate-50 py-24"
     >
       <Container>
-        <div className="mx-auto mb-14 max-w-2xl text-center">
-          <h2 className="mb-4 text-4xl font-bold">
-            Frequently Asked Questions
-          </h2>
+        <SectionHeading
+          badge="FAQ"
+          title="Frequently Asked Questions"
+          description="Find answers to the most commonly asked questions about our AC, LED TV and home appliance repair services."
+        />
 
-          <p className="text-slate-600">
-            Find answers to the most commonly asked questions.
-          </p>
-        </div>
+        <ScaleIn className="mt-16">
+          <div className="mx-auto max-w-4xl">
+            <Accordion
+              className="space-y-5"
+            >
+              {faqs.map((faq, index) => (
+                <AccordionItem
+                  key={index}
+                  value={`item-${index}`}
+                  className="
+                    overflow-hidden
+                    rounded-2xl
+                    border
+                    border-slate-200
+                    bg-white
 
-        <div className="mx-auto max-w-4xl">
-          <Accordion className="w-full">
-            {faqs.map((faq, index) => (
-              <AccordionItem
-                key={index}
-                value={`item-${index}`}
-              >
-                <AccordionTrigger>
-                  {faq.question}
-                </AccordionTrigger>
+                    px-6
 
-                <AccordionContent>
-                  {faq.answer}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-        </div>
+                    shadow-sm
+
+                    transition-all
+                    duration-300
+
+                    hover:border-blue-200
+                    hover:shadow-lg
+                  "
+                >
+                  <AccordionTrigger
+                    className="
+                      py-6
+
+                      text-left
+                      text-lg
+                      font-semibold
+                      text-slate-900
+
+                      hover:no-underline
+                    "
+                  >
+                    {faq.question}
+                  </AccordionTrigger>
+
+                  <AccordionContent
+                    className="
+                      pb-6
+                      leading-8
+                      text-slate-600
+                    "
+                  >
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+        </ScaleIn>
       </Container>
     </section>
   );

@@ -1,25 +1,29 @@
 import { Container } from "@/components/common/Container";
-import { WhyChooseCard } from "./WhyChooseCard";
-import { whyChooseItems } from "./whyChoose.data";
+
+
+import { FeatureCard } from "./FeatureCard";
+import { features } from "./features";
+import { SectionHeading } from "@/components/common/SectionHeading";
 
 export function WhyChooseUs() {
   return (
-    <section className="py-24">
+    <section
+      id="about"
+      className="bg-gradient-to-b from-white via-slate-50/40 to-white py-24"
+    >
       <Container>
-        <div className="mx-auto mb-14 max-w-2xl text-center">
-          <h2 className="mb-4 text-4xl font-bold">
-            Why Choose MRTECHYCOOL?
-          </h2>
+        <SectionHeading
+          badge="Why Choose Us"
+          title="Professional Repair Service You Can Trust"
+          description="Fast response, certified technicians, genuine spare parts and transparent pricing — everything you need for reliable AC & LED TV repairs."
+        />
 
-          <p className="text-slate-600">
-            We provide fast, reliable, and professional repair
-            services with complete customer satisfaction.
-          </p>
-        </div>
-
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-          {whyChooseItems.map((item) => (
-            <WhyChooseCard key={item.title} {...item} />
+        <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {features.map((feature) => (
+            <FeatureCard
+              key={feature.title}
+              {...feature}
+            />
           ))}
         </div>
       </Container>
