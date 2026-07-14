@@ -5,12 +5,26 @@ import { BUSINESS } from "@/config/business";
 const message = encodeURIComponent(
   `Hello ${BUSINESS.companyName},
 
-I need AC / LED Repair Service.
+I would like to book a service.
+
+━━━━━━━━━━━━━━━━━━
+Service Required:
+• LED TV Repair
+• Smart TV Repair
+• LED Panel Repair
+• CCTV Installation
+• AC Repair
+• AC Installation
+━━━━━━━━━━━━━━━━━━
 
 Name:
+Phone:
 Location:
 Problem:
-`
+
+Please contact me.
+
+Thank you!`,
 );
 
 export function FloatingWhatsAppButton() {
