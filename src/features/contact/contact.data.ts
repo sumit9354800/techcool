@@ -4,12 +4,12 @@ export const contactInfo = [
   {
     icon: Phone,
     title: "Call for Service",
-    value: "+91 9528013976",
+    value: "+91 8126102028",
   },
   {
     icon: Phone,
     title: "WhatsApp / Alternate Number",
-    value: "+91 8126102028",
+    value: "+91 9528013976",
   },
   {
     icon: Mail,
