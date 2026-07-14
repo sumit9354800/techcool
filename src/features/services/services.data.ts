@@ -12,7 +12,7 @@ export const services = [
     icon: Tv,
     title: "LED TV Repair",
     description:
-      "Professional repair for LED TVs, display issues, sound problems and motherboard faults.",
+      "Professional repair for LED TVs, display issues, sound problems, and motherboard faults.",
     image: "/services/led-repair.png",
   },
 
@@ -20,7 +20,7 @@ export const services = [
     icon: MonitorSmartphone,
     title: "Smart TV Repair",
     description:
-      "Software, display, connectivity and motherboard repair for Smart TVs.",
+      "Expert repair for Smart TVs, including software, display, connectivity, and motherboard issues.",
     image: "/services/smart-tv.png",
   },
 
@@ -28,15 +28,15 @@ export const services = [
     icon: PanelTop,
     title: "LED Panel Repair",
     description:
-      "Expert LED panel replacement and display restoration services.",
+      "High-quality LED panel replacement and display restoration by experienced technicians.",
     image: "/services/led-panel.png",
   },
 
   {
     icon: Cctv,
-    title: "CCTV Installation",
+    title: "CCTV Installation & Service",
     description:
-      "Professional CCTV installation, setup and maintenance for homes and offices.",
+      "Professional CCTV installation, configuration, maintenance, and repair for homes and businesses.",
     image: "/services/cctv-installation.png",
   },
 
@@ -44,7 +44,7 @@ export const services = [
     icon: Wrench,
     title: "AC Repair",
     description:
-      "Fast diagnosis and repair for Split and Window ACs.",
+      "Fast diagnosis and reliable repair for Split and Window Air Conditioners.",
     image: "/services/ac-repair.png",
   },
 
@@ -52,7 +52,7 @@ export const services = [
     icon: Snowflake,
     title: "AC Installation",
     description:
-      "Safe AC installation with complete testing and setup.",
+      "Safe and professional AC installation with complete testing and performance check.",
     image: "/services/ac-installation.png",
   },
 ];
