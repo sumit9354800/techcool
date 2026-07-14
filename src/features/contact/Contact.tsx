@@ -31,6 +31,7 @@ export function Contact() {
                     className="
                       group
                       flex
+                      min-w-0
                       items-start
                       gap-4
 
@@ -51,8 +52,11 @@ export function Contact() {
                       hover:shadow-xl
                     "
                   >
+                    {/* Icon */}
+
                     <div
                       className="
+                        shrink-0
                         rounded-2xl
                         bg-blue-50
                         p-4
@@ -78,12 +82,21 @@ export function Contact() {
                       />
                     </div>
 
-                    <div>
+                    {/* Text */}
+
+                    <div className="min-w-0 flex-1">
                       <h3 className="font-bold text-slate-900">
                         {item.title}
                       </h3>
 
-                      <p className="mt-2 leading-7 text-slate-600">
+                      <p
+                        className="
+                          mt-2
+                          break-all
+                          leading-7
+                          text-slate-600
+                        "
+                      >
                         {item.value}
                       </p>
                     </div>

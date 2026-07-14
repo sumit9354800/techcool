@@ -15,7 +15,7 @@ export function Navbar() {
           <NavLogo />
 
           {/* Navigation */}
-         <div className="hidden min-[1024px]:flex min-[1024px]:items-center min-[1024px]:gap-8">
+          <div className="hidden min-[1024px]:flex min-[1024px]:items-center min-[1024px]:gap-8">
             {navigation.map((item) => (
               <Link
                 key={item.title}
@@ -28,21 +28,23 @@ export function Navbar() {
           </div>
 
           {/* CTA */}
-         <div className="hidden min-[1024px]:block">
-            <Button
-              size="lg"
-              className="
-                    rounded-full
-                    px-7
-                    shadow-lg
-                    shadow-black/10
-                    transition-all
-                    duration-300
-                    hover:-translate-y-0.5
-                    hover:shadow-xl"
-            >
-              Book Repair
-            </Button>
+          <div className="hidden min-[1024px]:block">
+            <Link href="/#contact">
+              <Button
+                size="lg"
+                className="
+      rounded-full
+      px-7
+      shadow-lg
+      shadow-black/10
+      transition-all
+      duration-300
+      hover:-translate-y-0.5
+      hover:shadow-xl"
+              >
+                Book Repair
+              </Button>
+            </Link>
           </div>
           <MobileNav />
         </nav>
