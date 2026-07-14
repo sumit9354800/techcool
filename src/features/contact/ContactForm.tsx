@@ -2,12 +2,9 @@
 
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-
 import { Button } from "@/components/ui/button";
 import { ScaleIn } from "@/components/common/Motion";
-
 import { SERVICES } from "@/constants/services";
-
 import { contactSchema, ContactFormValues } from "./contact.schema";
 import { toast } from "sonner";
 
@@ -94,15 +91,14 @@ export function ContactForm() {
               placeholder="Your Name"
               {...register("name")}
               className={`
-      w-full
-      rounded-xl
-      border
-      px-4
-      py-3
-      outline-none
-      transition-all
-      duration-300
-
+                  w-full
+                  rounded-xl
+                  border
+                  px-4
+                  py-3
+                  outline-none
+                  transition-all
+                  duration-300
       ${
         errors.name
           ? "border-red-500 focus:ring-red-100"
@@ -122,14 +118,14 @@ export function ContactForm() {
               placeholder="Phone Number"
               {...register("phone")}
               className={`
-      w-full
-      rounded-xl
-      border
-      px-4
-      py-3
-      outline-none
-      transition-all
-      duration-300
+                      w-full
+                      rounded-xl
+                      border
+                      px-4
+                      py-3
+                      outline-none
+                      transition-all
+                      duration-300
 
       ${
         errors.phone

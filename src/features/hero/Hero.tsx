@@ -3,6 +3,7 @@ import { HeroButtons } from "./HeroButtons";
 import { HeroImage } from "./HeroImage";
 import { BadgeCheck, CheckCircle2 } from "lucide-react";
 import { FadeLeft, FadeRight } from "@/components/common/Motion";
+import { PRICING } from "@/config/pricing";
 
 export function Hero() {
   return (
@@ -122,6 +123,10 @@ export function Hero() {
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-600" />
                   Same-Day Service
+                </div>
+                <div className="flex items-center gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-green-600" />
+                  Visit Charge ₹349
                 </div>
               </div>
             </div>

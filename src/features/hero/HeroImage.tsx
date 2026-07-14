@@ -68,20 +68,15 @@ export function HeroImage() {
         />
       </div>
 
-      <FloatingBadge
-        text="⭐ Same-Day Service"
-        className="-top-6 left-0"
-      />
+      <FloatingBadge text="⭐ Same-Day Service" className="-top-6 left-0" />
 
       <FloatingBadge
         text="✔ Certified Technician"
         className="bottom-12 -left-8"
       />
 
-      <FloatingBadge
-        text="🛠 24×7 Support"
-        className="right-0 top-24"
-      />
+      <FloatingBadge text="🛠 24×7 Support" className="right-0 top-24" />
+      <FloatingBadge text="💰 Visit Charge ₹349" className="right-2 bottom-6" />
     </div>
   );
 }
