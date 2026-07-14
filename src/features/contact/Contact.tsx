@@ -14,8 +14,8 @@ export function Contact() {
       <Container>
         <SectionHeading
           badge="Contact"
-          title="Let's Get Your Appliance Working Again"
-          description="Need AC or LED TV repair? Contact our team today and schedule a professional doorstep service."
+          title="Book Your Repair Service Today"
+          description="Need LED TV repair, CCTV installation or AC service? Contact our experienced team today and book a professional doorstep service."
         />
 
         <div className="mt-16 grid gap-10 lg:grid-cols-2">

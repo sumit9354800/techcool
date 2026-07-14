@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { FloatingActions } from "@/components/floating/FloatingActions";
 import { Toaster } from "sonner";
+import { LocalBusinessSchema } from "./seo/LocalBusinessSchema";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -52,8 +53,7 @@ export const metadata: Metadata = {
   category: "Home Services",
 
   openGraph: {
-    title:
-      "MRTECHYCOOL | AC Repair & LED TV Repair Services in Delhi",
+    title: "MRTECHYCOOL | AC Repair & LED TV Repair Services in Delhi",
 
     description:
       "Fast, reliable and affordable AC & LED TV repair services in Delhi with same-day doorstep support.",
@@ -79,11 +79,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title:
-      "MRTECHYCOOL | AC Repair & LED TV Repair Services",
+    title: "MRTECHYCOOL | AC Repair & LED TV Repair Services",
 
-    description:
-      "Professional AC & LED TV Repair Services in Delhi.",
+    description: "Professional AC & LED TV Repair Services in Delhi.",
 
     images: ["/og-image.png"],
   },
@@ -111,7 +109,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         {children}
-
+        <LocalBusinessSchema />
         <FloatingActions />
 
         <Toaster position="top-right" richColors closeButton duration={3000} />

@@ -14,8 +14,8 @@ export function WhyChooseUs() {
       <Container>
         <SectionHeading
           badge="Why Choose Us"
-          title="Professional Repair Service You Can Trust"
-          description="Fast response, certified technicians, genuine spare parts and transparent pricing — everything you need for reliable AC & LED TV repairs."
+          title="Why Customers Trust MRTECHYCOOL"
+          description="Specialized LED TV repair, CCTV installation and AC services with experienced technicians, genuine spare parts and transparent pricing."
         />
 
         <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">

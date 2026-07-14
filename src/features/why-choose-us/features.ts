@@ -10,38 +10,43 @@ import {
 export const features = [
   {
     icon: ShieldCheck,
-    title: "Trusted Technicians",
+    title: "LED TV Specialists",
     description:
-      "Experienced professionals trained for AC and LED TV repairs.",
+      "Experienced technicians specializing in LED TV, Smart TV and panel repairs.",
   },
+
   {
     icon: Clock3,
-    title: "Same-Day Service",
+    title: "Same-Day Doorstep Service",
     description:
-      "Quick doorstep repair with minimum waiting time.",
+      "Fast and reliable doorstep service to minimize your waiting time.",
   },
+
   {
     icon: BadgeDollarSign,
     title: "Transparent Pricing",
     description:
-      "No hidden charges. Honest pricing before work starts.",
+      "Clear pricing with no hidden charges before any repair work begins.",
   },
+
   {
     icon: Wrench,
-    title: "Genuine Spare Parts",
+    title: "CCTV Installation Experts",
     description:
-      "High-quality replacement parts for long-lasting repairs.",
+      "Professional CCTV installation and maintenance for homes and offices.",
   },
+
   {
     icon: Award,
-    title: "Service Warranty",
+    title: "Genuine Spare Parts",
     description:
-      "Repairs backed with service warranty for peace of mind.",
+      "High-quality spare parts to ensure reliable and long-lasting repairs.",
   },
+
   {
     icon: Headphones,
-    title: "24×7 Support",
+    title: "Service Warranty",
     description:
-      "Customer support available whenever you need assistance.",
+      "Selected repair services are backed by a service warranty for your peace of mind.",
   },
 ];

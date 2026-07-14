@@ -1,5 +1,5 @@
 import { ServiceCard } from "./ServiceCard";
-import { services } from "./services";
+import { services } from "./services.data";
 import { Container } from '../../components/common/Container';
 import { SectionHeading } from '../../components/common/SectionHeading';
 
@@ -9,8 +9,8 @@ export function Services() {
       <Container>
         <SectionHeading
           badge="Our Services"
-          title="Complete Home Appliance Repair Solutions"
-          description="Reliable doorstep repair services for ACs, LED TVs and home appliances with certified technicians and genuine spare parts."
+          title="Professional LED TV, CCTV & AC Services"
+          description="Professional LED TV repair, CCTV installation and AC services delivered by experienced technicians with genuine spare parts and transparent pricing."
         />
 
         <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">

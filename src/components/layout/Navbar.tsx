@@ -41,7 +41,7 @@ export function Navbar() {
                     hover:-translate-y-0.5
                     hover:shadow-xl"
             >
-              Schedule Service
+              Book Repair
             </Button>
           </div>
           <MobileNav />

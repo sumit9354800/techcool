@@ -48,7 +48,7 @@ export function Hero() {
                       "
               >
                 <BadgeCheck className="h-4 w-4" />
-                Same-Day Home Service
+                LED TV Repair Specialists
               </div>
 
               {/* Heading */}
@@ -69,7 +69,7 @@ export function Hero() {
                   Professional
                   <br />
                   <span className="bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent">
-                    AC & LED Repair
+                    LED TV Repair
                   </span>
                   <br />
                   Services
@@ -84,9 +84,7 @@ export function Hero() {
                           sm:text-lg
                         "
                 >
-                  Professional doorstep AC and LED TV repair services delivered
-                  by experienced technicians with transparent pricing, genuine
-                  spare parts and same-day support.
+                  Professional doorstep LED TV repair services with same-day support, experienced technicians, genuine spare parts and affordable pricing. We also provide CCTV installation and AC repair services.
                 </p>
               </div>
               <div className="flex w-fit items-center gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-2.5 shadow-sm">
@@ -96,7 +94,7 @@ export function Hero() {
                   <p className="font-semibold text-slate-900">4.9 / 5 Rating</p>
 
                   <p className="text-sm text-slate-500">
-                    Trusted by local customers
+                   Trusted by hundreds of happy customers
                   </p>
                 </div>
               </div>
@@ -115,17 +113,17 @@ export function Hero() {
               >
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-600" />
+                  LED TV Specialists
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-green-600" />
+                  CCTV Installation
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-green-600" />
                   Same-Day Service
-                </div>
-
-                <div className="flex items-center gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-green-600" />
-                  Verified Technicians
-                </div>
-
-                <div className="flex items-center gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-green-600" />
-                  Affordable Pricing
                 </div>
               </div>
             </div>

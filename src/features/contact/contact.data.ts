@@ -1,19 +1,14 @@
-import {
-  MapPin,
-  Phone,
-  Mail,
-  Clock3,
-} from "lucide-react";
+import { MapPin, Phone, Mail, Clock3 } from "lucide-react";
 
 export const contactInfo = [
   {
     icon: Phone,
-    title: "Call Us",
+    title: "Call for Service",
     value: "+91 9528013976",
   },
   {
     icon: Phone,
-    title: "Alternate Number",
+    title: "WhatsApp / Alternate Number",
     value: "+91 8126102028",
   },
   {

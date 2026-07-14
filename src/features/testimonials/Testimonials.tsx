@@ -1,8 +1,9 @@
 
-import { SectionHeading } from "@/components/common/SectionHeading";
+
 import { testimonials } from "./testimonials";
 
 import { TestimonialCard } from "./TestimonialCard";
+import { SectionHeading } from '../../components/common/SectionHeading';
 export function Testimonials() {
   return (
     <section id="testimonials" className="bg-slate-50 py-24">
@@ -10,7 +11,7 @@ export function Testimonials() {
         <SectionHeading
           badge="Testimonials"
           title="What Our Customers Say"
-          description="Trusted by hundreds of happy customers across Delhi for fast, reliable and affordable AC repair services."
+        description="Trusted by customers across Delhi for professional LED TV repair, CCTV installation and reliable AC services."
         />
 
         <div

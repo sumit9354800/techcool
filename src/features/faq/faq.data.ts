@@ -1,27 +1,37 @@
 export const faqs = [
   {
-    question: "Do you provide same-day service?",
+    question: "Do you provide same-day LED TV repair service?",
     answer:
-      "Yes. We try to provide same-day doorstep service depending on technician availability.",
+      "Yes. We provide same-day doorstep LED TV repair service depending on technician availability.",
   },
+
   {
-    question: "Which AC brands do you repair?",
+    question: "Do you install and service CCTV cameras?",
     answer:
-      "We repair all major AC brands including LG, Samsung, Daikin, Voltas, Hitachi, Blue Star and more.",
+      "Yes. We provide CCTV installation, setup, maintenance and troubleshooting services for homes, offices and shops.",
   },
+
   {
-    question: "Do you repair LED and Smart TVs?",
+    question: "Which LED TV brands do you repair?",
     answer:
-      "Yes. We repair LED TVs, Smart TVs and most common display-related issues.",
+      "We repair all major LED and Smart TV brands including Samsung, LG, Sony, Mi, OnePlus, TCL, Vu and many others.",
   },
+
+  {
+    question: "Do you also repair ACs?",
+    answer:
+      "Yes. Along with LED TV repair, we also provide AC repair, installation and servicing for all major brands.",
+  },
+
   {
     question: "Do you provide warranty after repair?",
     answer:
-      "Yes. Warranty depends on the repair work and replaced parts. Our technician will explain it before completing the job.",
+      "Yes. Warranty depends on the repair work and replaced parts. Our technician will explain the warranty details before completing the service.",
   },
+
   {
     question: "What payment methods do you accept?",
     answer:
-      "We accept Cash, UPI and other digital payment methods.",
+      "We accept Cash, UPI and other secure digital payment methods.",
   },
 ];

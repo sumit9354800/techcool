@@ -4,7 +4,7 @@ export const testimonials = [
     location: "Dwarka, Delhi",
     rating: 5,
     review:
-      "Excellent AC repair service. Technician arrived on time and fixed the issue quickly.",
+      "Excellent LED TV repair service. The technician quickly diagnosed the issue and my TV was working perfectly the same day.",
   },
 
   {
@@ -12,7 +12,7 @@ export const testimonials = [
     location: "Janakpuri, Delhi",
     rating: 5,
     review:
-      "Professional technicians with transparent pricing. Highly recommended.",
+      "Very professional CCTV installation. Clean wiring, proper camera setup and excellent customer support.",
   },
 
   {
@@ -20,6 +20,6 @@ export const testimonials = [
     location: "Uttam Nagar, Delhi",
     rating: 5,
     review:
-      "Very satisfied with the AC installation. Fast and clean work.",
+      "Great experience with AC servicing. The technician arrived on time and completed the work neatly at a fair price.",
   },
 ];

@@ -17,8 +17,7 @@ export function Footer() {
               <FooterLogo />
 
               <p className="leading-7 text-slate-400">
-                Trusted AC & LED repair services with experienced technicians,
-                same-day doorstep support and transparent pricing.
+                Professional LED TV repair, CCTV installation and AC services with experienced technicians, same-day doorstep support and transparent pricing.
               </p>
             </div>
 
