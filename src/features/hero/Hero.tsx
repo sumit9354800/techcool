@@ -2,8 +2,6 @@ import { Container } from "@/components/common/Container";
 import { HeroButtons } from "./HeroButtons";
 import { HeroImage } from "./HeroImage";
 import { BadgeCheck, CheckCircle2 } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
 import { FadeLeft, FadeRight } from "@/components/common/Motion";
 
 export function Hero() {

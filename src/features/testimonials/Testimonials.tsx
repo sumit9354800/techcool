@@ -1,6 +1,6 @@
 
 
-import { testimonials } from "./testimonials";
+import { testimonials } from "./testimonials.data";
 
 import { TestimonialCard } from "./TestimonialCard";
 import { SectionHeading } from '../../components/common/SectionHeading';

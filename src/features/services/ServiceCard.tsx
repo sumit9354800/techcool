@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { LucideIcon, ArrowRight } from "lucide-react";
-
+import Link from "next/link";
 import { ScaleIn } from "@/components/common/Motion";
 
 interface ServiceCardProps {
@@ -45,7 +45,7 @@ export function ServiceCard({
             alt={title}
             fill
             priority={false}
-            quality={90}
+            quality={75}
             sizes="(max-width:768px)100vw,(max-width:1024px)50vw,33vw"
             className="
               object-cover
@@ -157,37 +157,35 @@ export function ServiceCard({
 
           {/* CTA */}
 
-          <button
+          <Link
+            href="/#contact"
             className="
-              mt-auto
-              inline-flex
-              items-center
-              gap-2
+    mt-auto
+    inline-flex
+    items-center
+    gap-2
 
-              font-semibold
-              text-blue-600
+    font-semibold
+    text-blue-600
 
-              transition-all
-              duration-300
+    transition-all
+    duration-300
 
-              group-hover:gap-3
-              group-hover:text-blue-700
-            "
+    group-hover:gap-3
+    group-hover:text-blue-700
+  "
           >
-            Explore Service
-
+            Book Service
             <ArrowRight
               className="
-                h-4
-                w-4
-
-                transition-transform
-                duration-300
-
-                group-hover:translate-x-2
-              "
+      h-4
+      w-4
+      transition-transform
+      duration-300
+      group-hover:translate-x-2
+    "
             />
-          </button>
+          </Link>
         </div>
       </div>
     </ScaleIn>
