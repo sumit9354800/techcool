@@ -39,7 +39,9 @@ export const metadata: Metadata = {
     "MRTECHYCOOL",
     "AC Technician Near Me",
   ],
-
+  verification: {
+    google: "y-a453qp3RhhgMdTjV8vpNdLJXfuemUeWKuKxK3eUgI",
+  },
   authors: [
     {
       name: "MRTECHYCOOL",
