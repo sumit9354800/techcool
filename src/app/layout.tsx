@@ -55,10 +55,11 @@ export const metadata: Metadata = {
   category: "Home Services",
 
   openGraph: {
-    title: "MRTECHYCOOL | AC Repair & LED TV Repair Services in Delhi",
+    title:
+      "MRTECHYCOOL | LED TV Repair, CCTV Installation & TV Repair Services in Delhi",
 
     description:
-      "Fast, reliable and affordable AC & LED TV repair services in Delhi with same-day doorstep support.",
+      "Fast, reliable and affordable LED TV repair, CCTV Installation & AC repair services in Delhi with same-day doorstep support.",
 
     url: "https://mrtechycool.in",
 
