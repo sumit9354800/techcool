@@ -21,19 +21,19 @@ export const metadata: Metadata = {
 
   title: {
     default:
-      "MRTECHYCOOL | AC Repair, AC Installation & LED TV Repair Services in Delhi",
+      "MRTECHYCOOL | LED TV Repair, CCTV Installation & AC Repair Services in Delhi",
     template: "%s | MRTECHYCOOL",
   },
 
   description:
-    "Professional AC Repair, AC Installation, Gas Refilling, LED TV Repair and Home Appliance Repair Services in Delhi. Same-day doorstep service by certified technicians at affordable prices.",
+    "Professional LED TV Repair, CCTV Installation, Gas Refilling, AC Repair and Home Appliance Repair Services in Delhi. Same-day doorstep service by certified technicians at affordable prices.",
 
   keywords: [
-    "AC Repair Delhi",
-    "AC Installation Delhi",
+    "LED TV Repair Delhi",
+    "CCTV Installation Delhi",
     "AC Service Delhi",
     "AC Gas Refilling",
-    "LED TV Repair Delhi",
+    "AC Repair Delhi",
     "Home Appliance Repair",
     "Split AC Repair",
     "Window AC Repair",
