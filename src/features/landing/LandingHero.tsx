@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import {
   ArrowRight,
@@ -7,11 +6,12 @@ import {
   PhoneCall,
   ShieldCheck,
   Wrench,
+  Snowflake,
+  Cctv,
 } from "lucide-react";
 
 import { ContactForm } from "@/features/contact/ContactForm";
 import { BUSINESS } from "@/config/business";
-import { PRICING } from "@/config/pricing";
 
 export function LandingHero() {
   return (
@@ -23,47 +23,50 @@ export function LandingHero() {
       <div className="pointer-events-none absolute -right-24 bottom-10 h-80 w-80 rounded-full bg-sky-100/70 blur-3xl" />
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 py-12 sm:px-6 md:py-16 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-20">
-        {/* Left content */}
+        {/* Left Content */}
         <div className="space-y-7">
+          {/* Main Business Badge */}
           <div className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700">
             <BadgeCheck className="h-4 w-4" />
-            AC Repair & Maintenance in Delhi
+            LED TV Repair & Home Services in Delhi
           </div>
 
+          {/* Main Heading */}
           <div className="space-y-5">
             <h1 className="text-4xl font-black leading-[1.12] tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
               Professional
               <span className="block bg-gradient-to-r from-blue-600 to-sky-500 bg-clip-text text-transparent">
-                AC Repair
+                LED TV Repair
               </span>
-              Services in Delhi
+              & Home Services in Delhi
             </h1>
 
             <p className="max-w-xl text-base leading-8 text-slate-600 sm:text-lg">
-              Need AC repair, installation, servicing or gas
-              refilling? Contact MRTECHYCOOL to request
-              professional doorstep assistance in Delhi.
+              Get professional LED TV repair, Smart TV repair, LED panel
+              repair and other home services from MRTECHYCOOL. We also provide
+              CCTV installation, AC repair and AC installation assistance
+              across Delhi.
             </p>
           </div>
 
-          {/* Trust badges */}
+          {/* Service Highlights */}
           <div className="grid gap-4 sm:grid-cols-2">
             {[
               {
                 icon: Wrench,
-                title: "AC Repair & Servicing",
+                title: "LED TV Repair",
               },
               {
                 icon: ShieldCheck,
-                title: "Doorstep Assistance",
+                title: "Smart & Panel Repair",
               },
               {
-                icon: CheckCircle2,
-                title: "Experienced Technicians",
+                icon: Cctv,
+                title: "CCTV Installation",
               },
               {
-                icon: BadgeCheck,
-                title: "Service Visit Available",
+                icon: Snowflake,
+                title: "AC Repair & Installation",
               },
             ].map((item) => {
               const Icon = item.icon;
@@ -96,7 +99,11 @@ export function LandingHero() {
             </Link>
 
             <Link
-              href={`https://wa.me/${BUSINESS.whatsapp}?text=${encodeURIComponent("Hello MRTECHYCOOL, I need AC repair service in Delhi.")}`}
+              href={`https://wa.me/${
+                BUSINESS.whatsapp
+              }?text=${encodeURIComponent(
+                "Hello MRTECHYCOOL, I need LED TV repair or home service in Delhi."
+              )}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-xl border border-blue-200 bg-white px-7 py-4 font-semibold text-blue-700 transition hover:border-blue-500 hover:bg-blue-50"
@@ -107,12 +114,12 @@ export function LandingHero() {
           </div>
 
           <p className="text-sm text-slate-500">
-            Service availability and final repair charges
-            depend on location and inspection.
+            Service availability and final charges depend on the service,
+            location and inspection.
           </p>
         </div>
 
-        {/* Right form */}
+        {/* Right Form */}
         <div className="relative">
           <div className="absolute -inset-3 rounded-[2rem] bg-gradient-to-br from-blue-200/50 to-sky-100/40 blur-xl" />
 

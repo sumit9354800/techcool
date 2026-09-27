@@ -17,13 +17,14 @@ export function FinalCTA() {
 
             {/* Heading */}
             <h2 className="mt-6 text-3xl font-black leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
-              Need AC Service in Delhi?
+              Need LED TV Repair in Delhi?
             </h2>
 
             {/* Description */}
             <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-blue-100 sm:text-lg sm:leading-8">
-              Contact MRTECHYCOOL for AC repair, servicing, installation
-              and gas refilling assistance.
+              Contact MRTECHYCOOL for LED TV repair, Smart TV repair and
+              LED panel repair assistance. We also provide other home
+              services including CCTV and AC services.
             </p>
 
             {/* Buttons */}
@@ -40,14 +41,14 @@ export function FinalCTA() {
                 href="#booking"
                 className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/30 bg-blue-700/40 px-6 py-4 text-sm font-bold text-white transition hover:bg-blue-700"
               >
-                Book AC Service
+                Book LED TV Repair
                 <ArrowRight className="h-5 w-5" />
               </a>
             </div>
 
             {/* Small trust line */}
             <p className="mt-6 text-sm text-blue-100">
-              Simple booking • AC service assistance • Delhi
+              Simple booking • LED TV repair assistance • Delhi
             </p>
           </div>
         </div>

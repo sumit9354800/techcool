@@ -9,21 +9,21 @@ const steps = [
     number: "01",
     title: "Book Your Service",
     description:
-      "Call us or submit your service request online with your AC service requirements.",
+      "Call us or submit your service request online with your LED TV repair requirements.",
     icon: CalendarCheck2,
   },
   {
     number: "02",
     title: "Technician Visit",
     description:
-      "Our technician visits your location to inspect the AC and understand the issue.",
+      "Our technician visits your location to inspect the LED TV and understand the issue.",
     icon: ClipboardCheck,
   },
   {
     number: "03",
-    title: "Service & Testing",
+    title: "Repair & Testing",
     description:
-      "The required service is carried out and the AC is checked after the work is completed.",
+      "The required repair service is carried out and the LED TV is checked after the work is completed.",
     icon: Wrench,
   },
 ];
@@ -39,12 +39,12 @@ export function HowItWorks() {
           </span>
 
           <h2 className="mt-6 text-3xl font-black leading-tight tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
-            Simple & Hassle-Free AC Service Process
+            Simple & Hassle-Free LED TV Repair Process
           </h2>
 
           <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
-            From booking your service to technician inspection and final
-            testing, the process is simple and straightforward.
+            From booking your repair service to technician inspection and
+            final testing, the process is simple and straightforward.
           </p>
         </div>
 
@@ -87,7 +87,7 @@ export function HowItWorks() {
             href="#booking"
             className="inline-flex items-center justify-center rounded-xl bg-blue-600 px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-blue-600/20 transition hover:bg-blue-700"
           >
-            Book Your AC Service
+            Book LED TV Repair
           </a>
         </div>
       </div>

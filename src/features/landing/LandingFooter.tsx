@@ -29,13 +29,14 @@ export function LandingFooter() {
             </Link>
 
             <p className="mt-5 max-w-md text-sm leading-7 text-slate-400">
-              Professional AC repair, servicing, installation and gas
-              refilling assistance in Delhi.
+              Professional LED TV repair, Smart TV repair and LED panel
+              repair services in Delhi. We also provide CCTV installation
+              and AC services.
             </p>
 
             <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-slate-800 bg-slate-900 px-4 py-2 text-sm text-slate-300">
               <Wrench className="h-4 w-4 text-blue-500" />
-              AC Service in Delhi
+              LED TV Repair in Delhi
             </div>
           </div>
 
@@ -47,17 +48,17 @@ export function LandingFooter() {
 
             <div className="mt-5 space-y-3 text-sm">
               <Link
-                href="#ac-services"
+                href="#led-services"
                 className="block transition-colors hover:text-blue-400"
               >
-                AC Services
+                LED TV Services
               </Link>
 
               <Link
                 href="#booking"
                 className="block transition-colors hover:text-blue-400"
               >
-                Book AC Service
+                Book LED TV Repair
               </Link>
 
               <Link
@@ -149,7 +150,7 @@ export function LandingFooter() {
             </p>
 
             <p>
-              Professional AC Services in Delhi
+              Professional LED TV Repair Services in Delhi
             </p>
           </div>
         </div>

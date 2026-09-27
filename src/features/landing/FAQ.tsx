@@ -5,34 +5,34 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    question: "What AC services does MRTECHYCOOL provide?",
+    question: "What LED TV services does MRTECHYCOOL provide?",
     answer:
-      "MRTECHYCOOL provides AC repair, AC servicing, AC installation and AC gas refilling assistance.",
+      "MRTECHYCOOL provides LED TV repair, Smart TV repair, LED panel repair and related TV service assistance in Delhi.",
   },
   {
-    question: "How can I book an AC service?",
+    question: "What types of LED TV problems can you help with?",
     answer:
-      "You can submit the service form on this page or contact MRTECHYCOOL directly by phone to request an AC service.",
+      "MRTECHYCOOL provides repair assistance for common LED TV problems such as display issues, sound problems, power-related faults, software issues and motherboard-related problems.",
   },
   {
-    question: "Do you provide doorstep AC service?",
+    question: "Do you provide doorstep LED TV repair service?",
     answer:
-      "Yes. MRTECHYCOOL provides home service assistance, subject to service-area availability.",
+      "Yes. MRTECHYCOOL provides doorstep LED TV repair assistance, subject to service-area availability.",
+  },
+  {
+    question: "Do you repair Smart TVs?",
+    answer:
+      "Yes. MRTECHYCOOL provides Smart TV repair assistance for issues related to software, connectivity, display and other common faults.",
+  },
+  {
+    question: "Do you provide LED panel repair?",
+    answer:
+      "Yes. LED panel repair and display-related service assistance are among the services provided by MRTECHYCOOL.",
   },
   {
     question: "Which areas do you serve?",
     answer:
-      "MRTECHYCOOL provides AC service assistance in Delhi. You can contact the team and share your location to confirm service availability.",
-  },
-  {
-    question: "Do you provide AC installation?",
-    answer:
-      "Yes. AC installation is one of the services provided by MRTECHYCOOL.",
-  },
-  {
-    question: "Do you provide AC gas refilling?",
-    answer:
-      "Yes. MRTECHYCOOL provides AC gas refilling assistance as part of its AC services.",
+      "MRTECHYCOOL provides home service assistance in Delhi. You can contact the team and share your location to confirm service availability.",
   },
 ];
 
@@ -49,12 +49,12 @@ export function FAQ() {
           </span>
 
           <h2 className="mt-6 text-3xl font-black leading-tight tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
-            Common Questions About AC Service
+            Common Questions About LED TV Repair
           </h2>
 
           <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
-            Find answers to some common questions about our AC repair and
-            service options.
+            Find answers to common questions about LED TV repair, Smart TV
+            repair, LED panel repair and our home service options.
           </p>
         </div>
 

@@ -7,27 +7,27 @@ import {
 
 const features = [
   {
-    title: "Professional Service",
+    title: "Professional TV Service",
     description:
-      "Get AC service assistance focused on proper inspection, repair and reliable solutions.",
+      "Get professional LED TV repair assistance with proper inspection, troubleshooting and reliable service solutions.",
     icon: Wrench,
   },
   {
     title: "Doorstep Assistance",
     description:
-      "Book your AC service and get assistance at your location in the Delhi service area.",
+      "Book your LED TV repair service and get assistance at your location within the Delhi service area.",
     icon: Clock3,
   },
   {
-    title: "Service-Focused Support",
+    title: "TV Repair Support",
     description:
-      "From AC repair to servicing, installation and gas refilling, get support for your AC needs.",
+      "Get assistance for LED TV repair, Smart TV repair and LED panel-related service requirements.",
     icon: BadgeCheck,
   },
   {
     title: "Trusted Local Service",
     description:
-      "MRTECHYCOOL provides home service assistance for AC and other electronic service requirements.",
+      "MRTECHYCOOL provides home service assistance for LED TVs along with CCTV and AC service requirements.",
     icon: ShieldCheck,
   },
 ];
@@ -43,12 +43,12 @@ export function WhyChooseUs() {
           </span>
 
           <h2 className="mt-6 text-3xl font-black leading-tight tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
-            AC Service You Can Rely On
+            LED TV Repair You Can Rely On
           </h2>
 
           <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
-            We focus on professional service, convenient doorstep assistance
-            and a simple booking experience for customers in Delhi.
+            We focus on professional LED TV repair, convenient doorstep
+            assistance and a simple booking experience for customers in Delhi.
           </p>
         </div>
 
@@ -86,11 +86,11 @@ export function WhyChooseUs() {
         {/* Bottom CTA */}
         <div className="mt-12 rounded-3xl bg-blue-600 px-6 py-8 text-center sm:px-10">
           <h3 className="text-2xl font-bold text-white sm:text-3xl">
-            Need AC Service in Delhi?
+            Need LED TV Repair in Delhi?
           </h3>
 
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-6 text-blue-100 sm:text-base">
-            Book your AC service request today and get in touch with
+            Book your LED TV repair request today and get in touch with
             MRTECHYCOOL.
           </p>
 
@@ -98,7 +98,7 @@ export function WhyChooseUs() {
             href="#booking"
             className="mt-6 inline-flex items-center justify-center rounded-xl bg-white px-6 py-3.5 text-sm font-bold text-blue-600 shadow-sm transition hover:bg-blue-50"
           >
-            Book AC Service
+            Book LED TV Repair
           </a>
         </div>
       </div>

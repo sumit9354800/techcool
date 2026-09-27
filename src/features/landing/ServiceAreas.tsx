@@ -21,12 +21,12 @@ export function ServiceAreas() {
           </span>
 
           <h2 className="mt-6 text-3xl font-black leading-tight tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
-            AC Service in Delhi
+            LED TV Repair Service in Delhi
           </h2>
 
           <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
-            MRTECHYCOOL provides AC repair, servicing, installation and
-            gas refilling assistance across its Delhi service area.
+            MRTECHYCOOL provides LED TV repair, Smart TV repair and LED
+            panel repair assistance across its Delhi service area.
           </p>
         </div>
 
@@ -72,7 +72,7 @@ export function ServiceAreas() {
             href="tel:+919528013976"
             className="mt-5 inline-flex items-center justify-center rounded-xl bg-blue-600 px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-blue-600/20 transition hover:bg-blue-700"
           >
-            Call for Service
+            Call for LED TV Repair
           </a>
         </div>
       </div>
