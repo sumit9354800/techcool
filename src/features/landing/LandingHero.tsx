@@ -38,7 +38,7 @@ export function LandingHero() {
               <span className="block bg-gradient-to-r from-blue-600 to-sky-500 bg-clip-text text-transparent">
                 LED TV Repair
               </span>
-              & Home Services in Delhi
+              & Home Services in Delhi NCR
             </h1>
 
             <p className="max-w-xl text-base leading-8 text-slate-600 sm:text-lg">
