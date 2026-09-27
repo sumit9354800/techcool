@@ -203,7 +203,7 @@ export function ContactForm() {
               <p className="mt-2 text-sm text-red-600">
                 {errors.message.message}
               </p>
-            )}
+            )} 
           </div>
 
           <Button
