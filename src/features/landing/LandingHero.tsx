@@ -28,7 +28,7 @@ export function LandingHero() {
           {/* Main Business Badge */}
           <div className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700">
             <BadgeCheck className="h-4 w-4" />
-            LED TV Repair & Home Services in Delhi
+            LED TV Repair & Home Services in Delhi NCR
           </div>
 
           {/* Main Heading */}
